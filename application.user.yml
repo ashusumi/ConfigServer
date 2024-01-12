@@ -3,7 +3,9 @@
 
 
 
-spring: 
+spring:
+  application:
+       name: USER-CONF
 eureka:
   instance:
     prefer-ip-address: true

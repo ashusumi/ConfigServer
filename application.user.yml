@@ -4,8 +4,8 @@
 
 
 spring:
-  application:
-       name: USER-CONF
+    application:
+         name: User-Conf
 eureka:
   instance:
     prefer-ip-address: true

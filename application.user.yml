@@ -1,5 +1,8 @@
 
 
+
+
+
 spring:
   application:
     name: USER-SERVICE
@@ -18,11 +21,10 @@ spring:
     properties:
        hibernate:
        dialect: org.hibernate.dialect.PostgreSQLDialect
-  config:
-    import: ConfigServer:http//localhost:8099    
+    
 server:
   port: 8090
- 
+  
 eureka:
   instance:
     prefer-ip-address: true

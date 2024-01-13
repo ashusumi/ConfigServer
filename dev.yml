@@ -1,4 +1,7 @@
+
 Spring:
+   git:
+   properties: dev
    application:
       name: SERVER-CONFIG-DEV
 eureka:
